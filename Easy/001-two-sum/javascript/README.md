@@ -127,3 +127,14 @@ npx jest solution.test.js
 ## ✨ Comparison Note for Blog
 
 Unlike Python's enumerate(), standard JavaScript requires a manual index increment in a for loop (unless using entries()). While slightly more verbose, the explicit control over the loop is very "JS-idiomatic.
+
+## 🔍 Language-Specific Insights
+
+1. **Object vs. Map (The Upgrade)**
+   Initially, I used a plain Object (`{}`). I upgraded to `Map` for three key reasons:
+   - **Key Types:** A `Map` can take any value as a key, whereas Objects restrict keys to Strings or Symbols.
+   - **Performance:** `Map` performs better in scenarios involving frequent additions and removals.
+   - **Size:** `Map` has a built-in `.size` property, making it easier to manage than counting keys in an Object.
+
+2. **Avoiding the "Falsy Zero" Bug**
+   By using `seen.has(complement)`, we completely avoid the risk of JavaScript treating index `0` as a "falsy" value. In a plain object, `if (seen[complement])` would fail if the stored index was `0`. `Map.has()` specifically checks for the existence of the key, not the truthiness of the value.

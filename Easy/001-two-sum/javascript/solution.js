@@ -4,15 +4,15 @@
  * @return {number[]}
  */
 var twoSum = function(nums, target) {
-    let pairs = {}
+    let seen = new Map(); // Using Map instead of a plain Object
     for(let i = 0; i < nums.length; i++) {
         const complement = target - nums[i];
-        if(pairs[complement] !== undefined) {
-            return [pairs[complement], i]
-        } else {
-            const value = nums[i]
-            pairs[value] = i
+        // Map.has() is the explicit way to check for existence
+        if (seen.has(complement)) {
+            return [seen.get(complement), i];
         }
+        // Map.set() stores the value and index
+        seen.set(nums[i], i);
     }
     return []
 };
