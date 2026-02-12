@@ -1,0 +1,18 @@
+# JavaScript / Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# IDEs / OS
+.DS_Store
+.vscode/
+.idea/
