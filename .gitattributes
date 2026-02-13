@@ -1,7 +1,24 @@
 # Auto detect text files and normalize line endings to LF
 * text=auto
 
-# Source code
+# Language-specific folders - ensure each language displays on GitHub profile
+# JavaScript/TypeScript folder
+javascript/** linguist-language=JavaScript
+
+# Python folder
+python/** linguist-language=Python
+
+# Future language folders (add as needed)
+# java/** linguist-language=Java
+# cpp/** linguist-language=C++
+# go/** linguist-language=Go
+# rust/** linguist-language=Rust
+# typescript/** linguist-language=TypeScript
+# csharp/** linguist-language=C#
+# ruby/** linguist-language=Ruby
+# php/** linguist-language=PHP
+
+# File-level overrides (for mixed folders)
 *.js linguist-language=JavaScript
 *.jsx linguist-language=JavaScript
 *.ts linguist-language=TypeScript
@@ -36,9 +53,7 @@
 *.md linguist-language=Markdown
 *.rst linguist-language=reStructuredText
 
-# Exclude from language stats (optional - uncomment if needed)
-# node_modules/ linguist-vendored
-# vendor/ linguist-vendored
-# dist/ linguist-generated
-# build/ linguist-generated
-# *.min.js linguist-generated
+# Exclude from language stats
+node_modules/ linguist-vendored
+__pycache__/ linguist-vendored
+.git/ linguist-vendored
