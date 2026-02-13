@@ -1,0 +1,44 @@
+# Auto detect text files and normalize line endings to LF
+* text=auto
+
+# Source code
+*.js linguist-language=JavaScript
+*.jsx linguist-language=JavaScript
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+*.py linguist-language=Python
+*.java linguist-language=Java
+*.cpp linguist-language=C++
+*.c linguist-language=C
+*.cs linguist-language=C#
+*.go linguist-language=Go
+*.rs linguist-language=Rust
+*.rb linguist-language=Ruby
+*.php linguist-language=PHP
+*.swift linguist-language=Swift
+*.kt linguist-language=Kotlin
+
+# Web
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+*.scss linguist-language=SCSS
+*.less linguist-language=Less
+*.vue linguist-language=Vue
+
+# Data & Config
+*.json linguist-language=JSON
+*.xml linguist-language=XML
+*.yaml linguist-language=YAML
+*.yml linguist-language=YAML
+*.toml linguist-language=TOML
+
+# Documentation
+*.md linguist-language=Markdown
+*.rst linguist-language=reStructuredText
+
+# Exclude from language stats (optional - uncomment if needed)
+# node_modules/ linguist-vendored
+# vendor/ linguist-vendored
+# dist/ linguist-generated
+# build/ linguist-generated
+# *.min.js linguist-generated
