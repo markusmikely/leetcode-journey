@@ -20,8 +20,12 @@ The solutions are organized by difficulty and problem ID to maintain a scalable 
 ```text
 ├── Easy/
 │   ├── 001-two-sum/
-│   │   ├── solution.py      # Primary Solution
-│   │   ├── README.md        # Deep Dive Analysis & Blog Draft
+│   │   ├── python/
+│   │   │   ├── README.md
+│   │   │   ├── solution.py
+│   │   │   └── solution.test.py
+│   │   ├── notes.md
+│   │   └── README.md
 │   └── ...
 ├── Medium/
 ├── Hard/
@@ -33,8 +37,7 @@ The solutions are organized by difficulty and problem ID to maintain a scalable 
 | Problem | Pattern | Time | Space | Blog Post |
 | :--- | :--- | :--- | :--- | :--- |
 | **001. Two Sum** | Hash Map | $O(n)$ | $O(n)$ | [Read Post 🔗](#) |
-| **020. Valid Parentheses** | Stack | $O(n)$ | $O(n)$ | [Read Post 🔗](#) |
-| **121. Best Time to Buy/Sell** | Sliding Window | $O(n)$ | $O(1)$ | [Read Post 🔗](#) |
+| **002. Add Two Numbers** | Linked List | $O(max(m,n))$ | $O(1)$ | [Read Post 🔗](#) |
 
 ## 🛠️ The "Deep Dive" Template
 
