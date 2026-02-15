@@ -1,4 +1,5 @@
 import unittest
+from solution import Solution  # Assumes your code is in solution.py
 
 # Helper to convert list to Linked List
 def to_linked_list(arr):

@@ -43,9 +43,9 @@ npx jest solution.test.js
 
 ## 📈 Performance Benchmarks
 
-- **LeetCode Runtime:** ~60ms
+- **LeetCode Runtime:** ~0ms (Beats 100%)
 
-- **Memory Usage:** ~42.5MB
+- **Memory Usage:** ~56.72MB (Beats 14.06%)
 
 - **Note:** JavaScript typically uses more memory than Python due to the way the V8 engine manages the heap and object properties.
 

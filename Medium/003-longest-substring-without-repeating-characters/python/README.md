@@ -45,9 +45,9 @@ if __name__ == "__main__":
 
 ## 📈 Performance Benchmarks
 
-- **LeetCode Runtime:** ~3ms (Beats 52.47%)
+- **LeetCode Runtime:** ~50ms (Beats X%)
 
-- **Memory Usage:** ~20.58MB (Beats 29.98%) 
+- **Memory Usage:** ~15.2MB
 
 - **Note:** Python's memory footprint is slightly higher than C++ or Rust due to the overhead of the objects and the dictionary structure.
 
