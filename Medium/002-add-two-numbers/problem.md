@@ -14,6 +14,10 @@ The linked list structure for Example 1 (342 + 465 = 807) looks like this:
 ```mermaid
 graph LR
     2((2)) --> 4((4)) --> 3((3))
+```
++
+```mermaid
+graph LR
     5((5)) --> 6((6)) --> 4
 ```
 
